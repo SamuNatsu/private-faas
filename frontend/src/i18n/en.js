@@ -5,6 +5,17 @@ export default {
     rememberMe: 'Remember me'
   },
   title: {
-    login: "Login {'|'} Private FaaS"
+    default: 'Private FaaS',
+    login: "Login {'|'} Private FaaS",
+    overview: "Overview {'|'} Private FaaS",
+    instances: "Instances {'|'} Private FaaS",
+    traffic: "Traffic {'|'} Private FaaS",
+    settings: "Settings {'|'} Private FaaS"
+  },
+  section: {
+    overview: 'Overview',
+    instances: 'Instances',
+    traffic: 'Traffic',
+    settings: 'Settings'
   }
 }

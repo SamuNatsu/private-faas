@@ -22,29 +22,25 @@ const signIn = ()=>{
   <div class="flex flex-col items-center my-20">
     <div class="flex flex-col items-center select-none">
       <img class="w-20" src="/private_faas_logo.svg"/>
-      <div class="font-bold text-3xl my-4">Private FaaS</div>
+      <div class="font-bold my-4 text-3xl">Private FaaS</div>
     </div>
-    <div class="bg-white rounded-lg shadow-md shadow-gray-300 my-4 px-10 py-6">
-      <div class="font-bold text-gray-600 mb-2 select-none">{{ t('common.password') }}</div>
+    <div class="bg-white my-4 px-10 py-6 rounded-lg shadow-md shadow-gray-300">
+      <div class="font-bold mb-2 select-none text-gray-600">{{ t('common.password') }}</div>
       <input
-        class="border-solid border-gray-300 border rounded-md shadow-sm shadow-gray-100 p-1 outline-none w-80 focus:border-gray-500"
+        class="border border-gray-300 border-solid outline-none p-1 rounded-md shadow-sm shadow-gray-100 w-80 focus:border-gray-500"
         type="password"
         v-model="passwd"
       />
       <div class="flex justify-center my-4">
         <input type="checkbox" v-model="remember"/>
-        <div class="font-bold text-gray-600 ml-2 select-none">{{ t('common.rememberMe') }}</div>
+        <div class="font-bold ml-2 select-none text-gray-600">{{ t('common.rememberMe') }}</div>
       </div>
       <div class="flex justify-center">
         <button
-          class="font-bold text-white bg-green-500 rounded py-1 w-full select-none hover:bg-green-600"
+          class="bg-green-500 py-1 font-bold rounded select-none text-white w-full hover:bg-green-600"
           @click="signIn"
         >{{ t('common.signIn') }}</button>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>
