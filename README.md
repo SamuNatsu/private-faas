@@ -6,3 +6,6 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/SamuNatsu/private-faas">
 <img alt="Vue" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Vue&query=%24.dependencies.vue&url=https%3A%2F%2Fraw.githubusercontent.com%2FSamuNatsu%2Fprivate-faas%2Fmaster%2Ffrontend%2Fpackage.json">
 </p>
+
+## About
+Private FaaS is a **single server**, **docker-based** FaaS platform. We separate frontend and backend, using different technical stack for better performance and apperance. In frontend, we use mainly **Vite**+**Vue3**. In backend, we use **Rust**+**Rocket**.
